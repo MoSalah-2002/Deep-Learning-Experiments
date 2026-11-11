@@ -1,64 +1,24 @@
-<div align="center">
+# Scientific Python
+numpy
+pandas
+scipy
+matplotlib
+seaborn
+scikit-learn
 
-# 🧬 Deep Learning Experiments
+# Deep learning
+torch
+torchaudio
+tensorflow
+keras
+speechbrain
 
-### Neural networks, sequence learning, and audio signal experiments
+# Audio processing
+librosa
+soundfile
+yt-dlp
 
-![Python](https://img.shields.io/badge/Python-3.10%2B-3776AB?style=for-the-badge&logo=python&logoColor=white)
-![PyTorch](https://img.shields.io/badge/PyTorch-Deep%20Learning-EE4C2C?style=for-the-badge&logo=pytorch&logoColor=white)
-![TensorFlow](https://img.shields.io/badge/TensorFlow-Experiments-FF6F00?style=for-the-badge&logo=tensorflow&logoColor=white)
-
-**A hands-on collection of deep-learning and signal-processing notebooks**, from a small neural network implemented from scratch to Keras and SpeechBrain experiments.
-
-</div>
-
----
-
-## 🚀 Inside this repository
-
-| Area | Experiments |
-|---|---|
-| 🧠 Fundamentals | Neural Network from Scratch and basic DNN experiments |
-| 🔧 Training | Keras fine-tuning experiments |
-| 🔤 Sequence models | LSTM-based next-word prediction |
-| 🎧 Audio processing | Waveform analysis, preprocessing, and denoising |
-| 🗣️ Speech enhancement | SpeechBrain enhancement model experiments |
-
-## 📁 Structure
-
-```text
-Deep-Learning-Experiments/
-├── notebooks/
-│   ├── Neural-Network-From-Scratch.ipynb
-│   ├── Deep-Neural-Network-Experiments.ipynb
-│   ├── Audio-Signal-Processing-Experiments.ipynb
-│   └── ...
-├── README.md
-└── requirements.txt
-```
-
-## ⚡ Quick start
-
-```bash
-git clone https://github.com/MoSalah-2002/Deep-Learning-Experiments.git
-cd Deep-Learning-Experiments
-python -m venv .venv
-# Activate the environment, then:
-pip install -r requirements.txt
-```
-
-For audio notebooks, install the matching PyTorch/Torchaudio build for your hardware. Some notebooks also depend on local audio files or pretrained checkpoints that are not included.
-
-## 🔐 Safe configuration
-
-Credentials have been removed from the prepared notebook copies. Configure external service tokens using environment variables; never paste secrets into notebook cells or commit them to Git.
-
-## 🧪 Reproducibility notes
-
-- GPU acceleration is optional for the small educational examples but recommended for heavier models.
-- Audio sample rates, file paths, and model checkpoints may need to be adjusted.
-- The notebooks are exploratory and are not presented as production-ready speech systems.
-
-## 👋 About
-
-Maintained by **Mohamed Salah** — Machine Learning & NLP Engineer (Junior).
+# Notebook tools
+jupyter
+ipykernel
+tqdm
